@@ -1,1 +1,1 @@
-3. New owner
+7. Everybody!
