@@ -1,1 +1,1 @@
-0. Hello World
+Displays the first 10 lines
