@@ -1,0 +1,2 @@
+#!/bin/bash
+egrep ^[[:alpha:]] /rtc/ssh/sshd_config
