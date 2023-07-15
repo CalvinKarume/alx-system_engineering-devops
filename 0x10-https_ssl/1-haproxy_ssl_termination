@@ -12,8 +12,3 @@ frontend www-https
     bind *:443 ssl crt /etc/haproxy/certs/www.Jahnte.tech.pem
     redirect scheme https if !{ ssl_fc }
     default_backend web-servers
-
-backend web-servers
-    balance roundrobin
-    server web-01 54.165.180.51:80 check
-    server web-02 34.207.253.176:80 check
